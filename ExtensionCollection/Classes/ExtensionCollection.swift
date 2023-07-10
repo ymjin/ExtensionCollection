@@ -38,7 +38,7 @@ extension UIView {
         self.clipsToBounds = true
         
         let maskLayer = CAShapeLayer()
-        maskLayer.fillRule = kCAFillRuleEvenOdd//CAShapeLayerFillRule.evenOdd
+        maskLayer.fillRule = kCAFillRuleEvenOdd//.evenOdd//CAShapeLayerFillRule.evenOdd
         maskLayer.fillColor = UIColor.black.cgColor
         
         let pathToOverlay = UIBezierPath(rect: self.bounds)
