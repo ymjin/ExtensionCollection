@@ -32,13 +32,14 @@ extension UIView {
         layer.borderWidth = width
     }
     
+    /*
     /// 가운데 투명한 사각형 올리기
     /// - Parameter rect: 가운데 투명하게 만들 영역
     public func makeClearHole(rect: CGRect) {
         self.clipsToBounds = true
         
         let maskLayer = CAShapeLayer()
-        maskLayer.fillRule = kCAFillRuleEvenOdd//.evenOdd//CAShapeLayerFillRule.evenOdd
+        maskLayer.fillRule = .evenOdd//kCAFillRuleEvenOdd//.evenOdd//CAShapeLayerFillRule.evenOdd
         maskLayer.fillColor = UIColor.black.cgColor
         
         let pathToOverlay = UIBezierPath(rect: self.bounds)
@@ -49,6 +50,7 @@ extension UIView {
         
         layer.mask = maskLayer
     }
+     */
 }
 
 extension String {
