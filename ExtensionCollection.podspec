@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExtensionCollection'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Extension Collections'
   s.homepage         = 'https://github.com/ymjin/ExtensionCollection'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ymjin' => 'somethigjin@gmail.com' }
-  s.source           = { :git => 'https://github.com/ymjin/ExtensionCollection.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ymjin/ExtensionCollection.git', :branch => "main" , :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'ExtensionCollection/Classes/**/*'
   s.swift_versions = '5.0'
