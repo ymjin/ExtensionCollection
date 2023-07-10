@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import ExtensionCollection
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var v:UIView!
+    @IBOutlet var l:UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        v.changeBorder(color: .red)
+    }
 }
 
