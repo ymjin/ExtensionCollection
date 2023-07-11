@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+@available(iOS 11.0, *)
 extension UIDevice {
     /// 노치 여부 판단
     public var isNotch: Bool {
