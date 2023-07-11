@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0174AC7DECA5CD31EDCB37185D6455A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21618EAA2A5D390000437169 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EA92A5D390000437169 /* UIExtension.swift */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -70,6 +71,7 @@
 		15953FECE1337DDB49228621A6263AAA /* Pods-ExtensionCollection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExtensionCollection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		21618EA92A5D390000437169 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		22399BC740EDB6DD76931D884EFAA5A6 /* Pods-ExtensionCollection_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtensionCollection_Example-Info.plist"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				E2640B926E1DCCC405230B08BE3F79A1 /* ExtensionCollection.swift */,
+				21618EA92A5D390000437169 /* UIExtension.swift */,
 				54BF344C88C6940AA9034432693FDC87 /* Pod */,
 				A752FDA9847FC883BD236CD1B0C273C9 /* Support Files */,
 			);
@@ -568,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DE254385D8F61E628176AFC877547C /* ExtensionCollection-dummy.m in Sources */,
+				21618EAA2A5D390000437169 /* UIExtension.swift in Sources */,
 				83165DABEA73AEE211460D58CBB719D9 /* ExtensionCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
