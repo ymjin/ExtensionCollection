@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         v.changeBorder(color: .red)
+        l.text = Date().UTCToKST().toString()
     }
 }
 
