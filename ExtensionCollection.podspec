@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExtensionCollection'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'Extension Collections'
   s.homepage         = 'https://github.com/ymjin/ExtensionCollection'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

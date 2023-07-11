@@ -22,6 +22,7 @@ extension NSObject {
     }
 }
 
+@available(iOS 11.0, *)
 extension UIView {
     /// View Border 그리기
     /// - Parameters:
