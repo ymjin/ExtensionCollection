@@ -251,6 +251,15 @@
 			path = ObjectExtension;
 			sourceTree = "<group>";
 		};
+		6908B1502A5E6FB30034B2A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6908B1332A5E6C600034B2A3 /* ObjectExtension */,
+				6908B1322A5E6C4E0034B2A3 /* UIExtension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		73CE17A7B38C87BEA85F48DF500BACD5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,8 +370,7 @@
 		C97D287F233DC8F763C7EBDCC721B2BE /* ExtensionCollection */ = {
 			isa = PBXGroup;
 			children = (
-				6908B1332A5E6C600034B2A3 /* ObjectExtension */,
-				6908B1322A5E6C4E0034B2A3 /* UIExtension */,
+				6908B1502A5E6FB30034B2A3 /* Classes */,
 				54BF344C88C6940AA9034432693FDC87 /* Pod */,
 				A752FDA9847FC883BD236CD1B0C273C9 /* Support Files */,
 			);
