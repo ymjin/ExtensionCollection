@@ -223,20 +223,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6908B1322A5E6C4E0034B2A3 /* UIExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIExtension;
-			sourceTree = "<group>";
-		};
-		6908B1332A5E6C600034B2A3 /* ObjectExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ObjectExtension;
-			sourceTree = "<group>";
-		};
 		73CE17A7B38C87BEA85F48DF500BACD5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,8 +338,6 @@
 				6908B13A2A5E6CF30034B2A3 /* ExtensionDate.swift */,
 				6908B13C2A5E6D010034B2A3 /* ExtensionInt.swift */,
 				6908B13E2A5E6D120034B2A3 /* ExtensionNSMutableAttributedString.swift */,
-				6908B1332A5E6C600034B2A3 /* ObjectExtension */,
-				6908B1322A5E6C4E0034B2A3 /* UIExtension */,
 				6908B1342A5E6CA30034B2A3 /* ExtensionUIDevice.swift */,
 				6908B1402A5E6D3D0034B2A3 /* ExtensionUIView.swift */,
 				6908B1422A5E6D570034B2A3 /* ExtensionUILabel.swift */,
