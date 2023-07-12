@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.author           = { 'ymjin' => 'somethigjin@gmail.com' }
   s.source           = { :git => 'https://github.com/ymjin/ExtensionCollection.git', :branch => "main" , :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'ExtensionCollection/**/*'
+  s.source_files = 'ExtensionCollection/Classes/**/*'
   s.swift_versions = '5.0'
 end
