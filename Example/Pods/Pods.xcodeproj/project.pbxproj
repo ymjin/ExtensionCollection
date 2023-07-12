@@ -226,15 +226,6 @@
 		6908B1322A5E6C4E0034B2A3 /* UIExtension */ = {
 			isa = PBXGroup;
 			children = (
-				6908B1342A5E6CA30034B2A3 /* ExtensionUIDevice.swift */,
-				6908B1402A5E6D3D0034B2A3 /* ExtensionUIView.swift */,
-				6908B1422A5E6D570034B2A3 /* ExtensionUILabel.swift */,
-				6908B1442A5E6D6A0034B2A3 /* ExtensionUITextField.swift */,
-				6908B1462A5E6D760034B2A3 /* ExtensionUIColor.swift */,
-				6908B1482A5E6D910034B2A3 /* ExtensionUIButton.swift */,
-				6908B14A2A5E6DA50034B2A3 /* ExtensionUITextView.swift */,
-				6908B14C2A5E6DB50034B2A3 /* ExtensionUIImageView.swift */,
-				6908B14E2A5E6DC70034B2A3 /* ExtensionCALayer.swift */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -242,22 +233,8 @@
 		6908B1332A5E6C600034B2A3 /* ObjectExtension */ = {
 			isa = PBXGroup;
 			children = (
-				6908B1362A5E6CBF0034B2A3 /* ExtensionNSObject.swift */,
-				6908B1382A5E6CD80034B2A3 /* ExtensionString.swift */,
-				6908B13A2A5E6CF30034B2A3 /* ExtensionDate.swift */,
-				6908B13C2A5E6D010034B2A3 /* ExtensionInt.swift */,
-				6908B13E2A5E6D120034B2A3 /* ExtensionNSMutableAttributedString.swift */,
 			);
 			path = ObjectExtension;
-			sourceTree = "<group>";
-		};
-		6908B1502A5E6FB30034B2A3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6908B1332A5E6C600034B2A3 /* ObjectExtension */,
-				6908B1322A5E6C4E0034B2A3 /* UIExtension */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		73CE17A7B38C87BEA85F48DF500BACD5 /* Targets Support Files */ = {
@@ -370,7 +347,22 @@
 		C97D287F233DC8F763C7EBDCC721B2BE /* ExtensionCollection */ = {
 			isa = PBXGroup;
 			children = (
-				6908B1502A5E6FB30034B2A3 /* Classes */,
+				6908B1362A5E6CBF0034B2A3 /* ExtensionNSObject.swift */,
+				6908B1382A5E6CD80034B2A3 /* ExtensionString.swift */,
+				6908B13A2A5E6CF30034B2A3 /* ExtensionDate.swift */,
+				6908B13C2A5E6D010034B2A3 /* ExtensionInt.swift */,
+				6908B13E2A5E6D120034B2A3 /* ExtensionNSMutableAttributedString.swift */,
+				6908B1332A5E6C600034B2A3 /* ObjectExtension */,
+				6908B1322A5E6C4E0034B2A3 /* UIExtension */,
+				6908B1342A5E6CA30034B2A3 /* ExtensionUIDevice.swift */,
+				6908B1402A5E6D3D0034B2A3 /* ExtensionUIView.swift */,
+				6908B1422A5E6D570034B2A3 /* ExtensionUILabel.swift */,
+				6908B1442A5E6D6A0034B2A3 /* ExtensionUITextField.swift */,
+				6908B1462A5E6D760034B2A3 /* ExtensionUIColor.swift */,
+				6908B1482A5E6D910034B2A3 /* ExtensionUIButton.swift */,
+				6908B14A2A5E6DA50034B2A3 /* ExtensionUITextView.swift */,
+				6908B14C2A5E6DB50034B2A3 /* ExtensionUIImageView.swift */,
+				6908B14E2A5E6DC70034B2A3 /* ExtensionCALayer.swift */,
 				54BF344C88C6940AA9034432693FDC87 /* Pod */,
 				A752FDA9847FC883BD236CD1B0C273C9 /* Support Files */,
 			);
