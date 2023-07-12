@@ -1,22 +1,24 @@
 {
   "name": "ExtensionCollection",
-  "version": "0.1.0",
-  "summary": "A short description of ExtensionCollection.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.1",
+  "summary": "Extension Collections",
   "homepage": "https://github.com/ymjin/ExtensionCollection",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ymjin": "ymjin.mv@movements.kr"
+    "ymjin": "somethigjin@gmail.com"
   },
   "source": {
     "git": "https://github.com/ymjin/ExtensionCollection.git",
-    "tag": "0.1.0"
+    "branch": "main",
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ExtensionCollection/Classes/**/*"
+  "source_files": "ExtensionCollection/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

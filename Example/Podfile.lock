@@ -1,5 +1,5 @@
 PODS:
-  - ExtensionCollection (0.1.0)
+  - ExtensionCollection (0.3.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ExtensionCollection: a4c827addb690769ca87b01c04ba62a9f71b0004
+  ExtensionCollection: 482484f8579bd6e0d803e8ae4cb88264e9872325
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 739ae8ffeaeeef8d564458ed7ba3d1756d26734c
