@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files = 'ExtensionCollection/Classes/**/*'
   s.swift_versions = '5.0'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxSwift'
+  
 end
