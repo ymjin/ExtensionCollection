@@ -195,7 +195,6 @@
 		21618EAB2A5F7A5600437169 /* ObjectExtension */ = {
 			isa = PBXGroup;
 			children = (
-				CD5D56FAF7E610DB93450A00174769EF /* ExtensionCALayer.swift */,
 				7DA6158ADA13E753BE903EFB611C5656 /* ExtensionDate.swift */,
 				4417884968DC564C5C3BF26675987EE0 /* ExtensionInt.swift */,
 				921F88211AEC69D2D4F900B4AA1A4709 /* ExtensionNSMutableAttributedString.swift */,
@@ -253,6 +252,7 @@
 				081EECC254BC5582038B905416F70337 /* ExtensionUITextField.swift */,
 				CBAE80F3CA340BC0D9DBFEA644242FC9 /* ExtensionUITextView.swift */,
 				CBA94C492D9465AD994AEB807E429969 /* ExtensionUIView.swift */,
+				CD5D56FAF7E610DB93450A00174769EF /* ExtensionCALayer.swift */,
 				AFED6C1E1653CB42AE0AFDA0F0372086 /* Pod */,
 				48FBBF565FF04D4F430B45948C807993 /* Support Files */,
 			);
