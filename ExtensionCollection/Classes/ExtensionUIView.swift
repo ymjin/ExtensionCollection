@@ -39,7 +39,7 @@ extension CALayer {
     ///   - width: 너비
     ///   - radius: 반경
     ///   - color: 색상
-    func changeBorder(width: CGFloat = 1, radius: CGFloat = 10, color: UIColor = UIColor(red: 194/255, green: 194/255, blue: 194/255, alpha: 1)) {
+    public func changeBorder(width: CGFloat = 1, radius: CGFloat = 10, color: UIColor = UIColor(red: 194/255, green: 194/255, blue: 194/255, alpha: 1)) {
         cornerRadius = radius
         borderWidth = width
         borderColor = color.cgColor
