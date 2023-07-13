@@ -16,7 +16,6 @@
 		2A43600649DFD178F0C545C76887893C /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA94C492D9465AD994AEB807E429969 /* ExtensionUIView.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2CD8601428F2028B13E8FEE3FDF1A6D6 /* ExtensionCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D56FAF7E610DB93450A00174769EF /* ExtensionCALayer.swift */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		35EF1B9BF4D8BE23FA706776664564C6 /* ExtensionUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600407160D12E698C92DCEFEA67C5D3 /* ExtensionUIDevice.swift */; };
@@ -140,7 +139,6 @@
 		CBA94C492D9465AD994AEB807E429969 /* ExtensionUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = ExtensionCollection/Classes/ExtensionUIView.swift; sourceTree = "<group>"; };
 		CBAE80F3CA340BC0D9DBFEA644242FC9 /* ExtensionUITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionUITextView.swift; path = ExtensionCollection/Classes/ExtensionUITextView.swift; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CD5D56FAF7E610DB93450A00174769EF /* ExtensionCALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtensionCALayer.swift; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D0DE9B8120AE0924DE877C6050FF31C7 /* ExtensionCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtensionCollection-umbrella.h"; sourceTree = "<group>"; };
 		D17DD7B490ABFB3F8D4729DDE0AEC5C7 /* Pods-ExtensionCollection_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExtensionCollection_Example"; path = Pods_ExtensionCollection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,7 +250,6 @@
 				081EECC254BC5582038B905416F70337 /* ExtensionUITextField.swift */,
 				CBAE80F3CA340BC0D9DBFEA644242FC9 /* ExtensionUITextView.swift */,
 				CBA94C492D9465AD994AEB807E429969 /* ExtensionUIView.swift */,
-				CD5D56FAF7E610DB93450A00174769EF /* ExtensionCALayer.swift */,
 				AFED6C1E1653CB42AE0AFDA0F0372086 /* Pod */,
 				48FBBF565FF04D4F430B45948C807993 /* Support Files */,
 			);
@@ -606,7 +603,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD8601428F2028B13E8FEE3FDF1A6D6 /* ExtensionCALayer.swift in Sources */,
 				CA1E4EB6E735D5AEE794669139B27DBE /* ExtensionCollection-dummy.m in Sources */,
 				8D0CCE621F33B85DBD7BA029907CB83D /* ExtensionDate.swift in Sources */,
 				5F4570B962C9B5CD4372556C76164655 /* ExtensionInt.swift in Sources */,
