@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		0174AC7DECA5CD31EDCB37185D6455A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21618EC12A5F837A00437169 /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EB72A5F837A00437169 /* ExtensionUIImageView.swift */; };
-		21618EC22A5F837A00437169 /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EB82A5F837A00437169 /* ExtensionUIButton.swift */; };
-		21618EC32A5F837A00437169 /* ExtensionUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EB92A5F837A00437169 /* ExtensionUITextField.swift */; };
-		21618EC42A5F837A00437169 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBA2A5F837A00437169 /* ExtensionUIView.swift */; };
-		21618EC52A5F837A00437169 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBB2A5F837A00437169 /* ExtensionString.swift */; };
-		21618EC62A5F837A00437169 /* ExtensionUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBC2A5F837A00437169 /* ExtensionUIDevice.swift */; };
-		21618EC72A5F837A00437169 /* ExtensionUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBD2A5F837A00437169 /* ExtensionUILabel.swift */; };
-		21618EC82A5F837A00437169 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBE2A5F837A00437169 /* ExtensionUIColor.swift */; };
-		21618EC92A5F837A00437169 /* ExtensionCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EBF2A5F837A00437169 /* ExtensionCALayer.swift */; };
-		21618ECA2A5F837A00437169 /* ExtensionUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618EC02A5F837A00437169 /* ExtensionUITextView.swift */; };
-		21618ECF2A5F838300437169 /* ExtensionNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618ECB2A5F838300437169 /* ExtensionNSObject.swift */; };
-		21618ED02A5F838300437169 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618ECC2A5F838300437169 /* ExtensionDate.swift */; };
-		21618ED12A5F838300437169 /* ExtensionNSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618ECD2A5F838300437169 /* ExtensionNSMutableAttributedString.swift */; };
-		21618ED22A5F838300437169 /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21618ECE2A5F838300437169 /* ExtensionInt.swift */; };
+		219803CD2A932A1400C84BE0 /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803C92A932A1400C84BE0 /* ExtensionInt.swift */; };
+		219803CE2A932A1400C84BE0 /* ExtensionNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803CA2A932A1400C84BE0 /* ExtensionNSObject.swift */; };
+		219803CF2A932A1400C84BE0 /* ExtensionNSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803CB2A932A1400C84BE0 /* ExtensionNSMutableAttributedString.swift */; };
+		219803D02A932A1400C84BE0 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803CC2A932A1400C84BE0 /* ExtensionDate.swift */; };
+		219803DD2A932A4F00C84BE0 /* ExtensionUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D32A932A4F00C84BE0 /* ExtensionUITextField.swift */; };
+		219803DE2A932A4F00C84BE0 /* ExtensionUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D42A932A4F00C84BE0 /* ExtensionUIDevice.swift */; };
+		219803DF2A932A4F00C84BE0 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D52A932A4F00C84BE0 /* ExtensionUIView.swift */; };
+		219803E02A932A4F00C84BE0 /* ExtensionCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D62A932A4F00C84BE0 /* ExtensionCALayer.swift */; };
+		219803E12A932A4F00C84BE0 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D72A932A4F00C84BE0 /* ExtensionString.swift */; };
+		219803E22A932A4F00C84BE0 /* ExtensionUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D82A932A4F00C84BE0 /* ExtensionUILabel.swift */; };
+		219803E32A932A4F00C84BE0 /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803D92A932A4F00C84BE0 /* ExtensionUIImageView.swift */; };
+		219803E42A932A4F00C84BE0 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803DA2A932A4F00C84BE0 /* ExtensionUIColor.swift */; };
+		219803E52A932A4F00C84BE0 /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803DB2A932A4F00C84BE0 /* ExtensionUIButton.swift */; };
+		219803E62A932A4F00C84BE0 /* ExtensionUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219803DC2A932A4F00C84BE0 /* ExtensionUITextView.swift */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		298781F955F88836CC4CAC78EDCADB55 /* ExtensionCollection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DE9B8120AE0924DE877C6050FF31C7 /* ExtensionCollection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,20 +85,20 @@
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		20272DF6DC133FF9BEA9AAF9CE740878 /* ExtensionCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExtensionCollection.modulemap; sourceTree = "<group>"; };
-		21618EB72A5F837A00437169 /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIImageView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIImageView.swift; sourceTree = "<group>"; };
-		21618EB82A5F837A00437169 /* ExtensionUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIButton.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIButton.swift; sourceTree = "<group>"; };
-		21618EB92A5F837A00437169 /* ExtensionUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUITextField.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUITextField.swift; sourceTree = "<group>"; };
-		21618EBA2A5F837A00437169 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIView.swift; sourceTree = "<group>"; };
-		21618EBB2A5F837A00437169 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionString.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionString.swift; sourceTree = "<group>"; };
-		21618EBC2A5F837A00437169 /* ExtensionUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIDevice.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIDevice.swift; sourceTree = "<group>"; };
-		21618EBD2A5F837A00437169 /* ExtensionUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUILabel.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUILabel.swift; sourceTree = "<group>"; };
-		21618EBE2A5F837A00437169 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIColor.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIColor.swift; sourceTree = "<group>"; };
-		21618EBF2A5F837A00437169 /* ExtensionCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionCALayer.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionCALayer.swift; sourceTree = "<group>"; };
-		21618EC02A5F837A00437169 /* ExtensionUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUITextView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUITextView.swift; sourceTree = "<group>"; };
-		21618ECB2A5F838300437169 /* ExtensionNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionNSObject.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionNSObject.swift; sourceTree = "<group>"; };
-		21618ECC2A5F838300437169 /* ExtensionDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionDate.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionDate.swift; sourceTree = "<group>"; };
-		21618ECD2A5F838300437169 /* ExtensionNSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionNSMutableAttributedString.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionNSMutableAttributedString.swift; sourceTree = "<group>"; };
-		21618ECE2A5F838300437169 /* ExtensionInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionInt.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionInt.swift; sourceTree = "<group>"; };
+		219803C92A932A1400C84BE0 /* ExtensionInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionInt.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionInt.swift; sourceTree = "<group>"; };
+		219803CA2A932A1400C84BE0 /* ExtensionNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionNSObject.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionNSObject.swift; sourceTree = "<group>"; };
+		219803CB2A932A1400C84BE0 /* ExtensionNSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionNSMutableAttributedString.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionNSMutableAttributedString.swift; sourceTree = "<group>"; };
+		219803CC2A932A1400C84BE0 /* ExtensionDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionDate.swift; path = ../ExtensionCollection/Classes/ObjectExtension/ExtensionDate.swift; sourceTree = "<group>"; };
+		219803D32A932A4F00C84BE0 /* ExtensionUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUITextField.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUITextField.swift; sourceTree = "<group>"; };
+		219803D42A932A4F00C84BE0 /* ExtensionUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIDevice.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIDevice.swift; sourceTree = "<group>"; };
+		219803D52A932A4F00C84BE0 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIView.swift; sourceTree = "<group>"; };
+		219803D62A932A4F00C84BE0 /* ExtensionCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionCALayer.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionCALayer.swift; sourceTree = "<group>"; };
+		219803D72A932A4F00C84BE0 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionString.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionString.swift; sourceTree = "<group>"; };
+		219803D82A932A4F00C84BE0 /* ExtensionUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUILabel.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUILabel.swift; sourceTree = "<group>"; };
+		219803D92A932A4F00C84BE0 /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIImageView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIImageView.swift; sourceTree = "<group>"; };
+		219803DA2A932A4F00C84BE0 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIColor.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIColor.swift; sourceTree = "<group>"; };
+		219803DB2A932A4F00C84BE0 /* ExtensionUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIButton.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUIButton.swift; sourceTree = "<group>"; };
+		219803DC2A932A4F00C84BE0 /* ExtensionUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUITextView.swift; path = ../ExtensionCollection/Classes/UIExtension/ExtensionUITextView.swift; sourceTree = "<group>"; };
 		22399BC740EDB6DD76931D884EFAA5A6 /* Pods-ExtensionCollection_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtensionCollection_Example-Info.plist"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -192,39 +192,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21618EB22A5F826000437169 /* BaseVC */ = {
+		219803C82A9329EE00C84BE0 /* ObjectExtension */ = {
+			isa = PBXGroup;
+			children = (
+				219803CC2A932A1400C84BE0 /* ExtensionDate.swift */,
+				219803C92A932A1400C84BE0 /* ExtensionInt.swift */,
+				219803CB2A932A1400C84BE0 /* ExtensionNSMutableAttributedString.swift */,
+				219803CA2A932A1400C84BE0 /* ExtensionNSObject.swift */,
+			);
+			path = ObjectExtension;
+			sourceTree = "<group>";
+		};
+		219803D12A932A2700C84BE0 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
-		21618EB52A5F833600437169 /* UIExtension */ = {
+		219803D22A932A3E00C84BE0 /* UIExtension */ = {
 			isa = PBXGroup;
 			children = (
-				21618EBF2A5F837A00437169 /* ExtensionCALayer.swift */,
-				21618EBB2A5F837A00437169 /* ExtensionString.swift */,
-				21618EB82A5F837A00437169 /* ExtensionUIButton.swift */,
-				21618EBE2A5F837A00437169 /* ExtensionUIColor.swift */,
-				21618EBC2A5F837A00437169 /* ExtensionUIDevice.swift */,
-				21618EB72A5F837A00437169 /* ExtensionUIImageView.swift */,
-				21618EBD2A5F837A00437169 /* ExtensionUILabel.swift */,
-				21618EB92A5F837A00437169 /* ExtensionUITextField.swift */,
-				21618EC02A5F837A00437169 /* ExtensionUITextView.swift */,
-				21618EBA2A5F837A00437169 /* ExtensionUIView.swift */,
+				219803D62A932A4F00C84BE0 /* ExtensionCALayer.swift */,
+				219803D72A932A4F00C84BE0 /* ExtensionString.swift */,
+				219803DB2A932A4F00C84BE0 /* ExtensionUIButton.swift */,
+				219803DA2A932A4F00C84BE0 /* ExtensionUIColor.swift */,
+				219803D42A932A4F00C84BE0 /* ExtensionUIDevice.swift */,
+				219803D92A932A4F00C84BE0 /* ExtensionUIImageView.swift */,
+				219803D82A932A4F00C84BE0 /* ExtensionUILabel.swift */,
+				219803D32A932A4F00C84BE0 /* ExtensionUITextField.swift */,
+				219803DC2A932A4F00C84BE0 /* ExtensionUITextView.swift */,
+				219803D52A932A4F00C84BE0 /* ExtensionUIView.swift */,
 			);
 			path = UIExtension;
-			sourceTree = "<group>";
-		};
-		21618EB62A5F834400437169 /* ObjectExtension */ = {
-			isa = PBXGroup;
-			children = (
-				21618ECC2A5F838300437169 /* ExtensionDate.swift */,
-				21618ECE2A5F838300437169 /* ExtensionInt.swift */,
-				21618ECD2A5F838300437169 /* ExtensionNSMutableAttributedString.swift */,
-				21618ECB2A5F838300437169 /* ExtensionNSObject.swift */,
-			);
-			path = ObjectExtension;
 			sourceTree = "<group>";
 		};
 		48FBBF565FF04D4F430B45948C807993 /* Support Files */ = {
@@ -266,9 +266,9 @@
 		64E697F68097C43CCAB70858ADE28D40 /* ExtensionCollection */ = {
 			isa = PBXGroup;
 			children = (
-				21618EB62A5F834400437169 /* ObjectExtension */,
-				21618EB52A5F833600437169 /* UIExtension */,
-				21618EB22A5F826000437169 /* BaseVC */,
+				219803D22A932A3E00C84BE0 /* UIExtension */,
+				219803D12A932A2700C84BE0 /* BaseVC */,
+				219803C82A9329EE00C84BE0 /* ObjectExtension */,
 				AFED6C1E1653CB42AE0AFDA0F0372086 /* Pod */,
 				48FBBF565FF04D4F430B45948C807993 /* Support Files */,
 			);
@@ -627,21 +627,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21618EC12A5F837A00437169 /* ExtensionUIImageView.swift in Sources */,
-				21618EC32A5F837A00437169 /* ExtensionUITextField.swift in Sources */,
-				21618EC52A5F837A00437169 /* ExtensionString.swift in Sources */,
-				21618ECF2A5F838300437169 /* ExtensionNSObject.swift in Sources */,
-				21618EC62A5F837A00437169 /* ExtensionUIDevice.swift in Sources */,
-				21618EC82A5F837A00437169 /* ExtensionUIColor.swift in Sources */,
-				21618EC72A5F837A00437169 /* ExtensionUILabel.swift in Sources */,
+				219803E12A932A4F00C84BE0 /* ExtensionString.swift in Sources */,
+				219803CE2A932A1400C84BE0 /* ExtensionNSObject.swift in Sources */,
 				CA1E4EB6E735D5AEE794669139B27DBE /* ExtensionCollection-dummy.m in Sources */,
-				21618ED22A5F838300437169 /* ExtensionInt.swift in Sources */,
-				21618ED12A5F838300437169 /* ExtensionNSMutableAttributedString.swift in Sources */,
-				21618EC22A5F837A00437169 /* ExtensionUIButton.swift in Sources */,
-				21618EC42A5F837A00437169 /* ExtensionUIView.swift in Sources */,
-				21618EC92A5F837A00437169 /* ExtensionCALayer.swift in Sources */,
-				21618ECA2A5F837A00437169 /* ExtensionUITextView.swift in Sources */,
-				21618ED02A5F838300437169 /* ExtensionDate.swift in Sources */,
+				219803CF2A932A1400C84BE0 /* ExtensionNSMutableAttributedString.swift in Sources */,
+				219803E22A932A4F00C84BE0 /* ExtensionUILabel.swift in Sources */,
+				219803DE2A932A4F00C84BE0 /* ExtensionUIDevice.swift in Sources */,
+				219803DD2A932A4F00C84BE0 /* ExtensionUITextField.swift in Sources */,
+				219803D02A932A1400C84BE0 /* ExtensionDate.swift in Sources */,
+				219803DF2A932A4F00C84BE0 /* ExtensionUIView.swift in Sources */,
+				219803CD2A932A1400C84BE0 /* ExtensionInt.swift in Sources */,
+				219803E32A932A4F00C84BE0 /* ExtensionUIImageView.swift in Sources */,
+				219803E62A932A4F00C84BE0 /* ExtensionUITextView.swift in Sources */,
+				219803E52A932A4F00C84BE0 /* ExtensionUIButton.swift in Sources */,
+				219803E02A932A4F00C84BE0 /* ExtensionCALayer.swift in Sources */,
+				219803E42A932A4F00C84BE0 /* ExtensionUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
